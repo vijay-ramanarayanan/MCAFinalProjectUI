@@ -1,0 +1,21 @@
+
+.yyy {
+
+}
+
+.mutual-fund-summary {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel-text {
+    margin-left: 10%;
+    font-size: 40px;
+}
+
+.icons {
+    font-size: 50px;
+    margin-top: 0.9em;
+    margin-left: 5%;
+    color: green;
+}

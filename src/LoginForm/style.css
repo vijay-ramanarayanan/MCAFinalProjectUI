@@ -1,0 +1,151 @@
+.login-container {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 90px;
+    width:60%;
+    /*background-color: rgb(46,49,55);*/
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: 2px solid black;
+  }
+
+.login-description {
+    display:flex;
+    color:rgb(73,83,93);
+    width:80%;
+    margin-left: 16%;
+    margin-bottom : 15px;
+    margin-top: 50px;
+    
+}
+
+.active {
+    border-bottom: 10px solid green;
+}
+
+.inactive {
+    border-bottom: 1px solid  rgb(80,89,101);
+}
+
+.login-text {
+    width:40%;
+    text-align: center;
+    background: none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    color:rgb(73,83,93);
+    margin-top:5%;
+
+}
+
+.login-text:focus {
+    /*border:none;*/
+    outline:none;
+}
+
+.login-text:hover {
+    /*background-color: gainsboro;*/
+}
+
+
+.line {
+    border-bottom: 1px solid  rgb(80,89,101);
+    width:80%;
+    margin-left:10%;
+
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    /*-webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 45px;
+    background: gray;*/
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    /*margin-top: 7%;*/
+    z-index: 2;
+    margin-top: 40px;
+
+  }  
+
+.login-form {
+    margin-left: 16%;
+
+}
+
+.form-input {
+    background-color: gainsboro;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    width:80%;
+    padding:1%;
+    margin-bottom : 10px;
+    margin-top : 10px;
+
+}
+
+.form-button {
+    background-color:rgb(84, 93, 105);
+    color: white;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    width:35%;
+    padding:1%;
+    background-color: rgb(77, 169, 82);
+    border-top : 5px solid rgb(60, 141, 64);
+    border-left : 5px solid rgb(60, 141, 64);
+
+    margin-bottom: 3%;
+    margin-left:22%;
+}
+
+.userName {
+    display : flex;
+}
+
+.user-form-input {
+    background-color: gainsboro;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding:1%;
+    width: 90%;
+    margin-right: 40px;
+}
+
+.signup-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-hidden {
+    display : none;
+}
+
+.modal-button {
+    margin-left: 45%;
+    margin-top : 3%;
+    margin-bottom : 3%;
+
+}
+
+.register-message {
+    font-size: 25px;
+    margin: 0;
+    margin-left: 3%;
+
+    font-family: monospace;
+}

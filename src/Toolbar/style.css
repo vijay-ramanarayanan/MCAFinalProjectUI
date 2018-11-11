@@ -1,0 +1,47 @@
+.toolbar {
+    height:84px;
+    /*border-bottom: 1px solid rgb(223, 226, 229);*/
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(236, 239, 241);
+    background-color: rgb(248, 248, 248);
+}
+
+.custom-button {
+    border: none;
+    background: none;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.custom-button:focus {
+    border: 0;
+    outline:none;
+}
+
+.welcome-header {
+    color: rgb(45, 92 ,111);
+    margin: auto;
+    margin-top : 1%;
+    font-size:30px;
+    padding-top: 10px;
+}
+
+.more-options {
+    margin-right: 1%;
+    margin-top: 20px;
+}
+
+.more-options:hover{
+    background-color: green;
+}
+
+.profile-dropdown:hover{
+    background-color: rgb(248, 248, 248) !important;
+
+}
+
+.profile-dropdown:active {
+    background-color: rgb(248, 248, 248) !important;
+
+}

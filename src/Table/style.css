@@ -1,0 +1,18 @@
+.table-custom > tbody > tr:hover{
+    box-shadow: 2px 2px 2px 2px;
+    margin-top: 1%;
+    margin-left: 20px;
+}
+
+.table-custom {
+    padding-top: 5%;
+}
+
+.table-row:hover {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.table-container {
+    margin-bottom: 20px;
+    margin-top : 20px;
+}

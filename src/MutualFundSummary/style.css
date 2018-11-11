@@ -1,0 +1,88 @@
+.custom-panel {
+    display: flex;
+    width: 450px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 118px;
+    border: 2px solid #3c1d40;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.fund-performance {
+    margin-left: 5%;
+    height: 20px;
+    width: 100%;
+    font-size: 2em;
+}
+
+.list-group-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    width:90%;
+    margin-top: 30px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+
+
+
+}
+
+.item {
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.description {
+    font-family: plume;
+    font-size: 2em;
+}
+
+.value {
+    font-size: 20px;
+}
+
+
+.unchecked {
+    color: gray;
+    margin-right: 3px;
+}
+
+.checked {
+    color:rgb(253, 164, 40);
+    margin-right: 3px;}
+
+.header{
+    color: orangered;
+    margin-left: 10%;
+    font-family: cursive;
+}
+
+.forecast-button {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    background-color: rgb(233,233, 233);
+    margin-top: 10px;
+    border: none;
+    outline: none;
+
+}
+
+.forecast-button:hover {
+    background-color: gainsboro;
+}
+
+.detail-table {
+    width:70%;
+    margin-left:5%;
+}
+
+.back-button {
+    color: blue;
+    margin-top : 30px; 
+    border: none; 
+    background: none; 
+    outline: none
+}

@@ -1,0 +1,48 @@
+.user-invested-funds {
+    list-style:none;
+    margin-left: 5%;
+    width: 90%;
+    border: 1px solid gray;
+    padding: 0;
+    border-radius: 20px;
+
+}
+
+.user-mutual-fund {
+    display:block;
+    border-bottom: 1px solid rgb(251, 211, 225);
+}
+
+.fund-name {
+    border-bottom : 3px solid rgb(252, 55, 127);
+    font-size : 2em;
+}
+
+.fund-description {
+    margin-left: 5%;
+    font-family: monospace;
+    width: 80%; 
+    font-size: 20px;
+}
+
+.user-fund-summary {
+    margin-left: 5%;
+    width:40%;
+    padding-right: 5%;
+    border-right: 1px solid black;
+}
+
+.user-fund-container {
+    display: flex;
+    border : 1px solid black;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.user-mutual-fund-summary-button {
+    margin-left : 10%;
+    margin-top : 20px;
+    border : 2px solid green;
+}
+
